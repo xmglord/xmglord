@@ -100,8 +100,11 @@ fictitious export lets anyone run the whole cycle without Aspel, and the tests u
 The first report has been delivered and is with the reviewer. The cleanup runs once the answers come back;
 until then nothing has been written to Aspel, by design.
 
-The acceptance test passed on SAE 8.00.37: removing extra permissions makes a user fall back to their role,
-and deleting a user leaves nothing Aspel still expects.
+The acceptance test passed on SAE 8.00.37 with a throwaway user: removing extra permissions makes the user
+fall back to their role, and deleting that user leaves nothing Aspel still expects. Real users are a
+different case, because they have transaction history: Aspel reuses the highest user ids for the next user
+created, so deleting real users is held back until it is clear how their history behaves. Permission
+cleanups do not have that problem and can go first.
 
 ## How I used AI
 
