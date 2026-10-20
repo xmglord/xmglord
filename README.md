@@ -8,44 +8,43 @@
 
 ## Hi, I'm German 👋
 
-<!-- TODO identity line: role + one sentence on what you make boring/reliable.
-     Draft: "**ERP implementation · Infrastructure · Automation.**" -->
+**AI Application Engineer · LLM agents for business systems.**
 
-<!-- TODO intro (3-4 sentences): years of experience, Odoo background,
-     current role (Odoo rollout across a holding company: every area but legal),
-     how you work (spec-first, agentic tooling). Source: CV + LinkedIn. -->
+I build software where business systems meet LLMs. My foundation is ERP: years of Odoo development and migrations, from custom modules and third-party integrations to the infrastructure they run on. That's the part most AI projects underestimate: the data model, the workflows, and what breaks in production. Now I build with LLM agents every day, spec-first and with the model kept on a short leash: it interprets messy input, code does the math and enforces the rules.
 
-<!-- TODO badges: only tools you can defend in an interview. Candidates from
-     current work: Odoo, Python, PostgreSQL, Docker, AWS, GitHub Actions, Linux, Bash.
-     Format: ![Odoo](https://img.shields.io/badge/Odoo-714B67?style=flat&logo=odoo&logoColor=white) -->
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Odoo](https://img.shields.io/badge/Odoo-714B67?style=flat&logo=odoo&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=claude&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
 ### 🧭 What I do
+- Implement and migrate **Odoo** end to end: custom modules, integrations, fiscal localizations, data migrations.
+- Run the infrastructure around it on **AWS**, with CI on **GitHub Actions** and pre-commit standards.
+- Automate the systems that stay: browser automation where APIs fail, bots that turn chat workflows into structured ERP data.
+- Build with **LLM agents** daily: subagents, persistent project memory, one setup versioned across machines.
 
-<!-- TODO 3-4 bullets, verb first. Candidates:
-     - Implement Odoo end to end for a multi-company holding (every area but legal).
-     - Run the infrastructure behind it: AWS EC2 hosting, IAM, backups, CI/CD.
-     - Automate the legacy systems that stay (user and role management for Aspel SAE/Banco).
-     - Build agentic tooling (Claude Code) for the tedious parts. -->
+### 📈 A few things I have shipped
+- **20+ end-to-end Odoo migrations** (v15–v17) across every core module, plus integrations (Mercado Libre APIs) and fiscal localizations for Mexico, Peru and the US.
+- Migrated a **100GB production database** by working around a framework-level batch-update limitation that blocked the standard path.
+- An **AWS browser-automation service** (Playwright) that restored bulk CFDI downloads after SAT API changes broke the standard integration.
+- A **Telegram bot** that replaced a WhatsApp payment workflow with structured approvals in Odoo that trigger invoicing automatically.
+- Found and fixed a calculation bug in a proprietary commissions module during its migration; the fix went upstream.
 
-### 📈 Things I have shipped
-
-<!-- TODO 3-5 results with numbers (users, companies, hours saved, time to deploy).
-     Only real, checkable figures; no estimates presented as facts. -->
-
-### 🔧 Featured work
-
-<!-- TODO filled by plan steps 4-6: AltScore (once public) and the case studies in
-     case_studies/ (aspel-tools automation, AWS hosting, Odoo CI/CD). -->
+<!-- TODO Featured work: link public repos and case studies as they land
+     (AltScore, aspel-tools case study, infra case studies, health_planner). -->
 
 ### 🛠 Daily tools
-
-<!-- TODO grouped, one line each:
-     **ERP** Odoo 16-19 (?)
-     **Cloud** AWS (EC2, IAM)
-     **Data** PostgreSQL
-     **Delivery** Docker, GitHub Actions, pre-commit
-     **Languages** Python, Bash -->
+**ERP** Odoo (v15–v19), QWeb, OWL<br>
+**Languages** Python, JavaScript, SQL, Bash<br>
+**Data** PostgreSQL<br>
+**Cloud & delivery** AWS (EC2, IAM), Docker, GitHub Actions, pre-commit<br>
+**Automation** Playwright, Telegram Bot API<br>
+**AI** Claude Code, LLM agents
 
 ### 📫 Let's talk
-
-<!-- TODO LinkedIn URL (after updating the new role) and preferred contact. -->
+- **LinkedIn:** [German Loredo Becerra](https://www.linkedin.com/in/german-loredo-becerra-2a52a2235/)
