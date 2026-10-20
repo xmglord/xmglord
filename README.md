@@ -38,7 +38,9 @@ I build software where business systems meet LLMs. My foundation is ERP: years o
 ### 🔧 Featured work
 - **[Auditing users and permissions in a legacy ERP](case_studies/aspel_user_audit.md)**: reverse-engineered an undocumented Firebird schema and built a report → review → guarded cleanup cycle for Aspel SAE/BANCO, with a single atomic write path, rehearsal and verified backups.
 
-<!-- TODO more featured work as it lands: AltScore case study, infra case studies, health_planner. -->
+- **[AltScore Makers Challenge](case_studies/altscore_makers_challenge.md)**: 8 of 9 hiring puzzles against a live API in about a day, enough for the CTO interview; I planned each solution and Claude Code wrote the code from that plan.
+
+<!-- TODO more featured work as it lands: infra case studies, health_planner. -->
 
 ### 🛠 Daily tools
 **ERP** Odoo (v15–v19), QWeb, OWL<br>
