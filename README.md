@@ -40,7 +40,9 @@ I build software where business systems meet LLMs. My foundation is ERP: years o
 
 - **[AltScore Makers Challenge](case_studies/altscore_makers_challenge.md)**: 8 of 9 hiring puzzles against a live API in about a day, enough for the CTO interview; I planned each solution and Claude Code wrote the code from that plan.
 
-<!-- TODO more featured work as it lands: infra case studies, health_planner. -->
+- **[Engineering standards for a holding's Odoo rollout](case_studies/odoo_engineering_standards.md)**: Odoo.sh as the runbot, fast-forward releases, GitHub rulesets designed around the platform's real limits, and a lint gate proven with negative tests, all in place before the first custom module.
+
+<!-- TODO more featured work as it lands: hosting migration case study, health_planner. -->
 
 ### 🛠 Daily tools
 **ERP** Odoo (v15–v19), QWeb, OWL<br>
