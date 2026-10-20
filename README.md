@@ -35,8 +35,10 @@ I build software where business systems meet LLMs. My foundation is ERP: years o
 - A **Telegram bot** that replaced a WhatsApp payment workflow with structured approvals in Odoo that trigger invoicing automatically.
 - Found and fixed a calculation bug in a proprietary commissions module during its migration; the fix went upstream.
 
-<!-- TODO Featured work: link public repos and case studies as they land
-     (AltScore, aspel-tools case study, infra case studies, health_planner). -->
+### 🔧 Featured work
+- **[Auditing users and permissions in a legacy ERP](case_studies/aspel_user_audit.md)**: reverse-engineered an undocumented Firebird schema and built a report → review → guarded cleanup cycle for Aspel SAE/BANCO, with a single atomic write path, rehearsal and verified backups.
+
+<!-- TODO more featured work as it lands: AltScore case study, infra case studies, health_planner. -->
 
 ### 🛠 Daily tools
 **ERP** Odoo (v15–v19), QWeb, OWL<br>
