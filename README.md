@@ -42,6 +42,8 @@ I build software where business systems meet LLMs. My foundation is ERP: years o
 
 - **[Engineering standards for a holding's Odoo rollout](case_studies/odoo_engineering_standards.md)**: Odoo.sh as the runbot, fast-forward releases, GitHub rulesets designed around the platform's real limits, and a lint gate proven with negative tests, all in place before the first custom module.
 
+- **[firefox-mcp-launcher](https://github.com/xmglord/firefox-mcp-launcher)**: runs Mozilla's Firefox DevTools MCP against a dedicated Firefox instance, alongside the everyday browser. The instance runs Marionette and BiDi and uses a clean profile by default, so the agent never inherits logged-in sessions. Also documents the failure modes I hit, such as a second MCP client silently taking over Marionette.
+
 <!-- TODO more featured work as it lands: hosting migration case study, health_planner. -->
 
 ### 🛠 Daily tools
