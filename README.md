@@ -43,12 +43,14 @@ I build software where business systems meet LLMs. My foundation is ERP: years o
 
 - **[Engineering standards for a holding's Odoo rollout](case_studies/odoo_engineering_standards.md)**: Odoo.sh as the runbot, fast-forward releases, GitHub rulesets designed around the platform's real limits, and a lint gate proven with negative tests, all in place before the first custom module.
 
+- **[Planning an Odoo agent with an agent council](case_studies/planning_council_odoo_agent.md)**: I built a [Claude Code plugin](https://github.com/xmglord/odoo-functional-agent) that plans, applies and tests Odoo 20 configuration on demo databases, from the plan of an experimental multi-agent pipeline. The page reports what that plan cost and broke: 30 tasks shipped, 23 defects introduced by the plan and 11 failures prevented, in one build with no second condition to compare, so the question stays open.
+
 - **[firefox-mcp-launcher](https://github.com/xmglord/firefox-mcp-launcher)**: runs Mozilla's Firefox DevTools MCP against a dedicated Firefox instance, alongside the everyday browser. The instance runs Marionette and BiDi and uses a clean profile by default, so the agent never inherits logged-in sessions. Also documents the failure modes I hit, such as a second MCP client locked out of Marionette behind an opaque error, and the launch command that silently starts nothing (fixed upstream in my merged docs PR [mozilla/firefox-devtools-mcp#220](https://github.com/mozilla/firefox-devtools-mcp/pull/220)).
 
 <!-- TODO more featured work as it lands: hosting migration case study, health_planner. -->
 
 ### 🛠 Daily tools
-**ERP** Odoo (v15–v19), QWeb, OWL<br>
+**ERP** Odoo (v15–v20), QWeb, OWL<br>
 **Languages** Python, JavaScript, SQL, Bash<br>
 **Data** PostgreSQL<br>
 **Cloud & delivery** AWS (EC2, IAM), Docker, GitHub Actions, pre-commit<br>
