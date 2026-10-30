@@ -34,6 +34,7 @@ I build software where business systems meet LLMs. My foundation is ERP: years o
 - An **AWS browser-automation service** (Playwright) that restored bulk CFDI downloads after SAT API changes broke the standard integration.
 - A **Telegram bot** that replaced a WhatsApp payment workflow with structured approvals in Odoo that trigger invoicing automatically.
 - Found and fixed a calculation bug in a proprietary commissions module during its migration; the fix went upstream.
+- A **bug fix in Mozilla's [Firefox DevTools MCP](https://github.com/mozilla/firefox-devtools-mcp)** ([#228](https://github.com/mozilla/firefox-devtools-mcp/pull/228)): `fill_by_uid` concatenated old and new text on fields that restore their value on focus, such as React controlled inputs. Reproduced it, made the fill edit the field the way a user does, and added tests that fail without the fix.
 
 ### 🔧 Featured work
 - **[Auditing users and permissions in a legacy ERP](case_studies/aspel_user_audit.md)**: reverse-engineered an undocumented Firebird schema and built a report → review → guarded cleanup cycle for Aspel SAE/BANCO, with a single atomic write path, rehearsal and verified backups.
